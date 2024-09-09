@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/HooBank/static/css/main.835ba97e.css",
+    "main.js": "/HooBank/static/js/main.78028bb1.js",
+    "static/js/453.fe414106.chunk.js": "/HooBank/static/js/453.fe414106.chunk.js",
+    "static/media/robo.png": "/HooBank/static/media/robo.3baffa36d0a0b2af2c65.png",
+    "static/media/last transaction.png": "/HooBank/static/media/last transaction.47913df444b35eba8449.png",
+    "static/media/paypal.png": "/HooBank/static/media/paypal.737183a47fc09ee9d86c.png",
+    "static/media/analysis.png": "/HooBank/static/media/analysis.05a946b6fe5593de0db2.png",
+    "static/media/payment.png": "/HooBank/static/media/payment.ea7581c7a0232fe9c33f.png",
+    "static/media/scan.png": "/HooBank/static/media/scan.da4586fc6b6762bdd850.png",
+    "static/media/circle3.png": "/HooBank/static/media/circle3.0e12ae5873b8e726f38a.png",
+    "static/media/ppl1.png": "/HooBank/static/media/ppl1.dd8f8fcf2688520707ce.png",
+    "static/media/ppl2.png": "/HooBank/static/media/ppl2.f7151982988d6a517922.png",
+    "static/media/circle2.png": "/HooBank/static/media/circle2.4bb7fea10cbfdd5d3bc7.png",
+    "static/media/logo.svg": "/HooBank/static/media/logo.62ab3be78ef4eca9bd4e87967e3e6310.svg",
+    "static/media/discount.svg": "/HooBank/static/media/discount.d904d70e5e6a46e2d499c204fab028d3.svg",
+    "index.html": "/HooBank/index.html",
+    "main.835ba97e.css.map": "/HooBank/static/css/main.835ba97e.css.map",
+    "main.78028bb1.js.map": "/HooBank/static/js/main.78028bb1.js.map",
+    "453.fe414106.chunk.js.map": "/HooBank/static/js/453.fe414106.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.835ba97e.css",
+    "static/js/main.78028bb1.js"
+  ]
+}
