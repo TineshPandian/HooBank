@@ -7,7 +7,7 @@ import instagram from './images/instagram.png'
 
 function Footer() {
   return (
-    <footer className="bg-black text-white py-16 px-10 mt-28 font-poppins">
+    <footer className=" text-white py-16 px-10 mt-28 font-poppins">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
         
         {/* Logo and Description Section */}
