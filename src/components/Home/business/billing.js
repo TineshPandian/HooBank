@@ -7,7 +7,7 @@ import gpay from './images/gpay.png';
 
 function Billing() {
   return (
-    <div className="relative flex justify-between  items-start mt-52">
+    <div className="relative flex justify-between  items-start mt-52 font-poppins">
       <div className='w-[590px] h-[1200px] bg-gradient-to-b from-transparent to-[#214D76] rounded-[100%] absolute z-0 left-[-40%] top-[-80%] opacity-50 blur-[120px]'></div>
       <div className="relative z-10 w-[300px] ">
         {/* PayPal Card */}

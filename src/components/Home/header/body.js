@@ -4,7 +4,7 @@ import robo from './robo.png';
 
 export default function Body() {
   return (
-    <div className="relative flex justify-between items-start mt-36   ">
+    <div className="relative flex justify-between items-start mt-36  font-poppins ">
       {/* Left Section */}
       <div className=" absolute left-[-30%] top-[-70%] w-[600px] h-[800px] bg-gradient-to-b from-transparent to-[#214D76] rounded-full blur-[150px] opacity-100 z-0"></div>
       <div className="w-1/2 z-10 ">
@@ -16,9 +16,9 @@ export default function Body() {
           </p>
         </div>
         <div className="mt-7 ">
-          <p className="text-slate-100 font-bold text-7xl leading-tight">The Next</p>
-          <p className="bg-custom-gradient bg-clip-text text-transparent font-bold text-7xl leading-tight mt-2">Generation</p>
-          <p className="text-slate-100 font-semibold text-7xl leading-tight mt-2">Payment Method.</p>
+          <p className="text-slate-100 font-bold text-6xl leading-tight">The Next</p>
+          <p className="bg-custom-gradient bg-clip-text text-transparent font-bold text-6xl leading-tight mt-2">Generation</p>
+          <p className="text-slate-100 font-semibold text-6xl leading-tight mt-2">Payment Method.</p>
         </div>
         <div className="mt-10">
           <p className="text-gray-400 text-xl w-11/12">

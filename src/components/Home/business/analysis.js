@@ -8,7 +8,7 @@ import payment from './images/payment.png';
 
 function Analysis() {
   return (
-    <div className='flex justify-between items-start mt-40 px-10 relative'>
+    <div className='flex justify-between items-start mt-40 px-10 relative font-poppins'>
       {/* Left Content */}
       <div className='w-3/5'>
         <p className='text-slate-100 text-5xl font-bold leading-tight tracking-wide'>

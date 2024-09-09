@@ -9,9 +9,9 @@ import dropbox from './images/dropbox.png';
 
 function Testimonial() {
   return (
-    <div className='mt-24 px-10 relative'>
+    <div className='mt-24 px-10 relative font-poppins'>
          <div className='absolute z-0 right-[-10%] top-[-50%] w-[350px] h-[1200px] bg-gradient-to-b from-transparent to-[#214D76] opacity-55 blur-[150px]'></div>
-      <div className='flex justify-between z-10 relative'>
+      <div className='flex justify-between z-10 relative '>
         <p className='text-slate-100 text-5xl font-bold leading-relaxed tracking-wide'>
           What people are <br /> saying about us
         </p>
@@ -20,7 +20,7 @@ function Testimonial() {
         </p>
       </div>
       
-      <div className='flex justify-evenly mt-20 gap-10 z-10 relative'>
+      <div className='flex justify-evenly mt-20 gap-10 z-10 relative '>
         {/* Testimonial 1 */}
         <div className='bg-greay-gradient rounded-3xl p-6 w-2/3 relative'>
           <p className='bg-custom-gradient bg-clip-text text-transparent font-semibold text-7xl leading-tight mt-2'>"</p>

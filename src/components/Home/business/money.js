@@ -5,7 +5,7 @@ import transfer from './images/transfer.png'
 
 function Money() {
   return (
-    <div className='flex justify-between gap-x-20 items-start mt-36 px-10'>
+    <div className='flex justify-between gap-x-20 items-start mt-36 px-10 font-poppins'>
       {/* Left Content */}
       <div className='w-3/5'>
         <p className='text-slate-100 text-5xl font-bold leading-tight tracking-wide'>

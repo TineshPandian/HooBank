@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function User() {
   return (
-    <div>
+    <div className='font-poppins'>
        {/* User Active */}
        <div className=' flex items-center space-x-9 justify-evenly mt-36'>
         <p className='text-slate-100 text-5xl font-bold'>3800+</p>
