@@ -9,12 +9,8 @@ function Footer() {
   return (
     <footer className=" text-white py-16 px-10 mt-28 font-poppins">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
-        
-        {/* Logo and Description Section */}
-        <div className=''>
-          
-          
-          {/* HooBank Text with proper alignment */}
+        <div className=''> 
+          {/* HooBank  */}
           <div className="flex items-center space-x-1    ">
           <img src={logo} alt="HooBank Logo" className="h-20 mb-4" />
             <p className='text-slate-100 text-4xl font-bold pl-3'>Hoo</p>
@@ -27,8 +23,6 @@ function Footer() {
             A new way to make the payments easy, reliable and secure.
           </p>
         </div>
-        
-        {/* Useful Links Section */}
         <div className='ml-16'>
           <p className="text-slate-100 text-xl font-medium mb-4">Useful Links</p>
           <ul className="text-gray-400 space-y-2 text-lg">
@@ -39,8 +33,6 @@ function Footer() {
             <li>Terms & Services</li>
           </ul>
         </div>
-
-        {/* Community Links Section */}
         <div className='ml-16'>
           <p className="text-slate-100 text-xl font-medium mb-4">Community</p>
           <ul className="text-gray-400 space-y-2 text-lg">
@@ -51,8 +43,6 @@ function Footer() {
             <li>Newsletters</li>
           </ul>
         </div>
-
-        {/* Partner Links Section */}
         <div className='ml-16'>
           <p className="text-slate-100 text-xl font-mediium mb-4">Partner</p>
           <ul className="text-gray-400 space-y-2 text-lg">
@@ -67,8 +57,6 @@ function Footer() {
         <p className="text-gray-500 text-lg">
           Copyright © 2021 HooBank. All Rights Reserved.
         </p>
-        
-        {/* Social Media Icons */}
         <div className="flex space-x-6 mt-4 md:mt-0">
           <img src={instagram} alt="Instagram" />
           <img src={facebook} alt="Facebook" />

@@ -11,7 +11,7 @@ import Footer from './components/Home/footer/footerdetails';
 
 function App() {
   return (
-    <div className="App mx-36 my-8  ">
+    <div className="App md:mx-36 md:my-8 mx-6 my-6  ">
          <Nav/>
          <Body/>
          <User/>

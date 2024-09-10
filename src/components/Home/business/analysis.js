@@ -8,47 +8,36 @@ import payment from './images/payment.png';
 
 function Analysis() {
   return (
-    <div className='flex justify-between items-start mt-40 px-10 relative font-poppins'>
+    <div className='md:flex justify-between items-start mt-40 px-0 md:px-10 relative font-poppins'>
       {/* Left Content */}
-      <div className='w-3/5'>
-        <p className='text-slate-100 text-5xl font-bold leading-tight tracking-wide'>
-          Find a better card deal <br /> in few easy steps.
+      <div className='md:w-2/5 md:mt-10'>
+        <p className='text-slate-100 text-3xl md:text-5xl font-bold leading-tight tracking-wide'>
+          Find a better card deal  in few easy steps.
         </p>
-        <p className='text-gray-400 text-xl mt-8 leading-relaxed'>
-          Arcu tortor, purus in mattis at sed integer faucibus. <br />
-          Aliquet quis aliquet eget mauris tortor. <br />
+        <p className='text-gray-400 md:text-xl text-lg mt-8 leading-relaxed'>
+          Arcu tortor, purus in mattis at sed integer faucibus. 
+          Aliquet quis aliquet eget mauris tortor. 
           Aliquet ultrices ac, ametau.
         </p>
-        <button className='bg-button-gradient text-black px-5 py-4 font-semibold text-lg w-40 rounded-2xl mt-12'>
+        <button className='bg-button-gradient text-black px-5 py-4 font-semibold text-base md:text-lg w-40 rounded-2xl mt-12'>
           Get Started
         </button>
       </div>
 
       {/* Right Content */}
-      <div className='relative w-2/5 h-[500px]'>
-        {/* Large Circle */}
-        <img src={c1} alt="circle1" className='absolute  left-[0px] w-[400px] h-[400px]' />
+      <div className='relative md:w-2/5 h-[500px] md:mt-0 mt-16 hidden md:block'>
         
-        {/* Medium Circle */}
-        <img src={c2} alt="circle2" className='absolute top-[50px] left-[50px] w-[300px] h-[300px]' />
-        
-        {/* Small Circle */}
-        <img src={c3} alt="circle3" className='absolute top-[100px] left-[100px] w-[200px] h-[200px]' />
-
-        {/* Scan Credit Card Icon */}
-        <div className='absolute top-[90px] left-[-50px]'>
-          <img src={finger} alt="scan" className='w-[180px] h-[150px]' />
-          
+        <img src={c1} alt="circle1" className='absolute  md:left-[0px] md:top-0 md:w-[400px] md:h-[400px] left-[25%] top-[90px] ' />
+        <img src={c2} alt="circle2" className='absolute md:top-[50px] md:left-[50px] md:w-[300px] md:h-[300px] right-[2%] top-[10%] h-[220px] '/>
+        <img src={c3} alt="circle3" className='absolute md:top-[100px] md:left-[100px] md:w-[200px] md:h-[200px] right-[10%] h-[320px] ' />
+        <div className='absolute md:top-[90px] md:left-[-50px] top-[40px] left-[-60px]'>
+          <img src={finger} alt="scan" className='md:w-[180px] md:h-[150px] w-[120px]' />
         </div>
-
-        {/* Online Analysis Card */}
-        <div className='absolute top-[50px] left-[210px]'>
-          <img src={analys} alt="analysis" className='w-full h-full' />
+        <div className='absolute md:top-[50px] md:left-[210px] left-[110px]'>
+          <img src={analys} alt="analysis" className='md:w-full md:h-full w-[140px]' />
         </div>
-
-        {/* Payment Method Icons */}
-        <div className='absolute top-[320px] left-[70px]'>
-          <img src={payment} alt="payment" className='w-full h-full' />
+        <div className='absolute md:top-[320px] md:left-[70px] top-[225px] left-[25px]'>
+          <img src={payment} alt="payment" className='md:w-full md:h-full w-[170px] ' />
         </div>
       </div>
     </div>
